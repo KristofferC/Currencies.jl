@@ -14,7 +14,7 @@ does not register the same currency as a package that your application depends
 on:
 
 ```@repl custom
-using CurrencyBaskets  # hide
+using Currencies  # hide
 @usingcustomcurrency xbt "Bitcoin" 8
 10xbt
 pts = newcurrency!(:pts, "Points", 0)

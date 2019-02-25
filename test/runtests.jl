@@ -1,4 +1,4 @@
-using CurrencyBaskets
+using Currencies
 using FixedPointDecimals
 
 using Test

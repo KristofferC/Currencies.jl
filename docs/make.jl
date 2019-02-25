@@ -1,8 +1,8 @@
 using Documenter
-using CurrencyBaskets
+using Currencies
 
 makedocs(
-    modules = [CurrencyBaskets],
+    modules = [Currencies],
     doctest = false
 )
 
@@ -15,5 +15,5 @@ deploydocs(
             "mkdocs",
             "mkdocs-material",
             "python-markdown-math"),
-    repo = "github.com/JuliaFinance/CurrencyBaskets.jl.git"
+    repo = "github.com/JuliaFinance/Currencies.jl.git"
 )
